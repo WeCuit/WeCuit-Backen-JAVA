@@ -1,0 +1,48 @@
+<root>
+    <item id="0" state="open">
+        <content>
+            <name href="listview.jsp?lid=25039&amp;folderid=0" target="mainFrame">课程资源</name>
+        </content>
+        <item id="142416" parent_id="0">
+            <content>
+                <name href="listview.jsp?lid=25039&amp;folderid=142416" target="mainFrame">课件</name>
+            </content>
+        </item>
+        <item id="142449" parent_id="0">
+            <content>
+                <name href="listview.jsp?lid=25039&amp;folderid=142449" target="mainFrame">实验</name>
+            </content>
+        </item>
+        <item id="142475" parent_id="0">
+            <content>
+                <name href="listview.jsp?lid=25039&amp;folderid=142475" target="mainFrame">PTA辅助平台</name>
+            </content>
+        </item>
+        <item id="142477" parent_id="0">
+            <content>
+                <name href="listview.jsp?lid=25039&amp;folderid=142477" target="mainFrame">平时成绩</name>
+            </content>
+            <item id="151747" parent_id="142477">
+                <content>
+                    <name href="listview.jsp?lid=25039&amp;folderid=151747" target="mainFrame">考勤</name>
+                </content>
+            </item>
+            <item id="151911" parent_id="142477">
+                <content>
+                    <name href="listview.jsp?lid=25039&amp;folderid=151911" target="mainFrame">平时成绩</name>
+                </content>
+            </item>
+            <item id="151912" parent_id="142477">
+                <content>
+                    <name href="listview.jsp?lid=25039&amp;folderid=151912" target="mainFrame">参考答案</name>
+                </content>
+            </item>
+        </item>
+        <item id="143310" parent_id="0">
+            <content>
+                <name href="listview.jsp?lid=25039&amp;folderid=143310" target="mainFrame">教材源代码</name>
+            </content>
+        </item>
+    </item>
+</root>
+

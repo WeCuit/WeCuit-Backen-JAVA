@@ -1,0 +1,12 @@
+Unknown Transformers732 0x10 optEnumType
+optEnumType=6
+content=NotifyMsgBody#1456695643 {
+            optEnumType=0x00000006(6)
+            optMsgGroupNotify=GroupNotifyInfo#2025951039 {
+                    optBytesFeedsId=62 39 38 63 30 64 31 32 30 30 30 30 30 30 30 30 34 62 39 66 61 34 36 30 32 64 39 39 30 36 30 30
+            }
+            optUint64GroupCode=0x00000000120D8CB9(302877881)
+            optUint64MsgExpires=0x0000000000000000(0)
+            optUint64MsgTime=0x0000000000000000(0)
+            optUint64SenderUin=0x0000000000000000(0)
+    }

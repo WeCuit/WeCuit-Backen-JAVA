@@ -1,0 +1,13 @@
+{
+  "github": "敬请期待",
+  "errorCode": 2000,
+  "group": "940309953",
+  "notice": [
+    {
+      "data": "https://test.cuit.api.jysafe.cn/Api/Sys/getHtml/name/changelog",
+      "src": "/../public/images/notice/4.jpg",
+      "text": "公告",
+      "type": "html"
+    }
+  ]
+}

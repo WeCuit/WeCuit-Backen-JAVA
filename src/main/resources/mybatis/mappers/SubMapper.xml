@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wecuit.backen.sub">
+    <select id="selectTplList" resultType="hashmap">
+        SELECT
+               tpl_id AS tplId,
+               tpl_tid AS templateId,
+               tpl_client AS client,
+               tpl_type AS type,
+               tpl_description AS description
+        FROM wc_sub_template WHERE tpl_client = #{client}
+    </select>
+
+    <select id="subStatus" resultType="hashmap">
+        SELECT
+            sub_id AS subId,
+            user_id AS userId,
+            tpl_id AS tplId,
+            sub_cnt AS subCnt,
+            sub_enable AS status
+        FROM wc_sub
+        WHERE user_id = (
+            SELECT user_id FROM wc_users WHERE `user_${client}id` = #{openid}
+            )
+    </select>
+</mapper>
